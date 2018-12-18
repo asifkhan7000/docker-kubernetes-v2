@@ -1,0 +1,4 @@
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html
+RUN echo “Copying index.html to Container” 
+RUN echo “Preparing the new container”
